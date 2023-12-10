@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+
+body,html{
+    background: white;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#area{
+    background: url(https://www.promad.adv.br/blog/wp-content/uploads/2019/03/Como-escolher-a-melhor-area-de-especializacao-no-Direito.jpg) no-repeat; 
+    background-color: rgba(0,0,0,0.9);
+    background-blend-mode: color;
+    width: 100vw;
+    height: 960px;
+    border-bottom: 40px solid #A7804B;
+}
+
+#area-logo{
+    padding: 100px
+}
+
+.area-imagem{
+    border: 2px solid red;
+    width: 30%;
+}
+
+#area-apresentação{
+    border: 2px solid black;
+    width: 40vw;
+    margin: 10px 100px;
+    text-align: justify;   
+    color: white; 
+    list-style: none;
+}
+
+#area-apresentação .area-apresentação-titulo{
+    font-size: 3rem;
+    font-weight: bold;
+    border-left: 3px solid #A7804B;
+}
+
+#area-apresentação .area-apresentação-comentario{
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+#area-apresentação .area-apresentação-saiba{
+    font-size: 1.5rem;
+    width: 250px;
+    margin-top: 50px;
+    background: #A7804B;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#area-justiça{
+    border: 2px solid black;
+    width: 900px;
+    height: 900px;
+    margin: -785px 950px;
+    overflow: hidden;
+   
+}
+
+#area-justiça .area-justiça-imagem{
+    
+    width: 1000px;
+    height: 1800px;
+    object-fit: cover;
+
+
+}
