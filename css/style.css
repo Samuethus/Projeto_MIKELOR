@@ -18,7 +18,6 @@
 /*border: 2px solid black*/
 
 /* FORMATAÇÃO DA PÁGINA -------------------------------------------*/ 
-
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     padding: 0px;
@@ -45,11 +44,12 @@ ul, .btn {
     width: 100%;
     height: 100vh;
     border-bottom: 30px solid #A7804B;
+    position: relative;
 }
 
 
 #area-logo{
-    padding: 0px 100px
+    padding: 0px 100px;
 }
 
 .area-imagem{
@@ -66,10 +66,16 @@ ul, .btn {
 #area-apresentação{
     border: none;
     width: 40vw;
+    height: 59.5vh;
     margin: 0px 100px;
-    text-align: justify;   
+    text-align: justify;
+    justify-content: center;
+    justify-items: center;
     color: white; 
-    list-style: none;
+}
+
+#area-apresentação ul{
+    margin-top: 10vh;
 }
 
 #area-apresentação .area-apresentação-titulo{
@@ -81,32 +87,26 @@ ul, .btn {
 
 #area-apresentação .area-apresentação-comentario{
     font-size: 1.5rem;
-    margin-top: 50px;
 }
 
 #area-apresentação .area-apresentação-saiba{
     font-size: 1.5rem;
     width: 250px;
-    margin-top: 50px;
     background: #A7804B;
-    border-radius: 5px;
+    border-radius: 3px;
     text-align: center;
     text-decoration: none;
 }
 
-#area-justiça{
-    border: none;
-    width: 40%;
-    height: 610px;
-    top: 0;
-    margin: -40vw 750px;
+#area-predio{
+    position: absolute;
+    top: 13vh;
+    right: 15vw;
+    height: 83.5vh;
+    width: 850px;
     overflow: hidden;
-}
-
-#area-justiça .area-justiça-imagem{ 
-    width: 45vw;
-    height: 1000px;
-    object-fit: cover;
+    justify-content: center;
+    align-items: center;
 }
 
 #certificado-container{
@@ -148,12 +148,13 @@ ul .certificado-titulo {
     color: #2B3C5A;
 }
 
-#curriculo-container {
+#historia-container {
     border: 2px solid black;
 }
 
-#curriculo-container{
-    background: linear-gradient(0deg, rgba(43,60,90,0.7) ,  rgba(43,60,90,0.7) ) , url(https://wallpaper.dog/large/20534439.jpg) no-repeat; 
+#historia-container{
+    background: linear-gradient(0deg, rgba(43,60,90,0.7) ,  rgba(43,60,90,0.7) ) , url(https://solarviews.com/raw/earth/earthlights.jpg) no-repeat; 
+    /*https://wallpaper.dog/large/20534439.jpg*/
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -162,37 +163,40 @@ ul .certificado-titulo {
     text-align: center;
     color: #eee;
 }
-.curriculo-imagem{
+
+.historia-imagem{
     width: 20%;
     border: none;
 }
 
-#curriculo-container .curriculo-apresentação-titulo{
-font-size: 2rem;
-font-weight: bold;
-padding-bottom: 20px;
-border: none;
+#historia-container .historia-apresentação-titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border: none;
 }
 
-#curriculo-container .curriculo-apresentação-comentario{
+#historia-container .historia-apresentação-comentario{
     font-size: 1.1rem;
     border: none;
-    padding: 30px 100px;
+    width: 70vw ;
+    margin-left: 15vw;
+    margin-top: 20px;
 }
 
-.curriculo-apresentação-opnião{
-    display: flex;
-    border: none;
+#historia-container .historia-apresentação-opnião{
     height: 15vh;
     font-size: 1.05rem;
     font-style: italic;
     padding: 30px 100px;
-    justify-content: space-between;
+    width: 70vw ;
+    margin-left: 15vw;
+    margin-top: 10px;
 }
 
 .certificado-pessoa{
-    width: 10vw;
+    width:5vw;
     border-radius: 50%;
     border: 4px solid #A7804B ;
-    margin: -50px -0px;
+    margin: -12vh -0px;
 }
