@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
+
+/* PALETA DE CORES
+#2B3C5A - AZUL ESCURO
+#A7804B - DOURADO
+
+#5F7200 - VERDE
+#005B30 - VERDE EXCEL
+#7F7F7F - CINZA
+#075E94 - AZUL MEDIO
+#063553 - AZUL ESCURO
+#EA9203 - AMARELO POWERBI
+*/
+
+/* https://www.gratispng.com/ */
+
+/*border: 2px solid black*/
+
+/* FORMATAÇÃO DA PÁGINA -------------------------------------------*/ 
+
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     padding: 0px;
@@ -13,26 +32,39 @@ body,html{
     list-style: none;
 }
 
+ul, .btn {
+    list-style: none;
+    text-decoration: none;
+}
+/*-------------------------------------------------------------------*/
+
 #area{
     background: linear-gradient(0deg, rgba(43,60,90,0.7) ,  rgba(43,60,90,0.7) ) , url(https://www.promad.adv.br/blog/wp-content/uploads/2019/03/Como-escolher-a-melhor-area-de-especializacao-no-Direito.jpg) no-repeat; 
     background-position: center;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     border-bottom: 30px solid #A7804B;
 }
+
 
 #area-logo{
     padding: 0px 100px
 }
 
 .area-imagem{
-    border: 2px solid red;
+    border: none;
     width: 20%;
 }
 
+.btn {
+    color: #eee;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 #area-apresentação{
-    border: 2px solid black;
+    border: none;
     width: 40vw;
     margin: 0px 100px;
     text-align: justify;   
@@ -44,6 +76,7 @@ body,html{
     font-size: 2rem;
     font-weight: bold;
     border-left: 3px solid #A7804B;
+    padding-left: 15px;
 }
 
 #area-apresentação .area-apresentação-comentario{
@@ -62,9 +95,9 @@ body,html{
 }
 
 #area-justiça{
-    border: 2px solid black;
+    border: none;
     width: 40%;
-    height: 600px;
+    height: 610px;
     top: 0;
     margin: -40vw 750px;
     overflow: hidden;
@@ -77,24 +110,89 @@ body,html{
 }
 
 #certificado-container{
-    border: 2px solid black;
+    border: none;
     display: flex;
     justify-content: space-between;
     text-align: center;
     padding: 100px;
 }
 
-#certificado-graduação{
-    border: 2px solid black;
+#certificado-graduação , #certificado-posgraduação1 , #certificado-posgraduação2{
+    border: 2px solid white;
     width: 20vw;
+    box-shadow: 0px 3px 20px #2b3c5a2d;
+    padding: 15px; 
+    margin: auto;
 }
 
-#certificado-posgraduação1{
-    border: 2px solid black;
-    width: 20vw;
+#certificado-container ul{
+   margin-top: 15px;
+    font-size: 1.1rem;
 }
 
-#certificado-posgraduação2{
+#certificado-container i{
+    font-size: 2.5rem;
+    color: #2B3C5A;
+}
+
+ul .certificado-titulo {
+    font-weight: bold;
+}
+
+.certificado-divisor{
+    width: 17vw;
+}
+
+#certificado-graduação .certificado-titulo , #certificado-posgraduação1 .certificado-titulo , #certificado-posgraduação2 .certificado-titulo{
+    font-weight: bold;
+    color: #2B3C5A;
+}
+
+#curriculo-container {
     border: 2px solid black;
-    width: 20vw;
+}
+
+#curriculo-container{
+    background: linear-gradient(0deg, rgba(43,60,90,0.7) ,  rgba(43,60,90,0.7) ) , url(https://wallpaper.dog/large/20534439.jpg) no-repeat; 
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 30px solid #A7804B;
+    text-align: center;
+    color: #eee;
+}
+.curriculo-imagem{
+    width: 20%;
+    border: none;
+}
+
+#curriculo-container .curriculo-apresentação-titulo{
+font-size: 2rem;
+font-weight: bold;
+padding-bottom: 20px;
+border: none;
+}
+
+#curriculo-container .curriculo-apresentação-comentario{
+    font-size: 1.1rem;
+    border: none;
+    padding: 30px 100px;
+}
+
+.curriculo-apresentação-opnião{
+    display: flex;
+    border: none;
+    height: 15vh;
+    font-size: 1.05rem;
+    font-style: italic;
+    padding: 30px 100px;
+    justify-content: space-between;
+}
+
+.certificado-pessoa{
+    width: 10vw;
+    border-radius: 50%;
+    border: 4px solid #A7804B ;
+    margin: -50px -0px;
 }
