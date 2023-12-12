@@ -200,3 +200,58 @@ ul .certificado-titulo {
     border: 4px solid #A7804B ;
     margin: -12vh -0px;
 }
+
+#testemunha-container{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px;
+    position: relative;
+}
+
+#testemunha-graduação , #testemunha-posgraduação1 , #testemunha-posgraduação2{
+    border: 2px solid #A7804B;
+    width: 20vw;
+    box-shadow: 0px 3px 20px #2b3c5a2d;
+    padding: 15px; 
+    margin: auto;
+}
+
+#testemunha-container ul{
+   margin-top: 15px;
+    font-size: 1.1rem;  
+}
+
+#testemunha-container i{
+    font-size: 1.5rem;
+    color: white;
+    background: #A7804B;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    top: -21vh;
+}
+
+ul .testemunha-titulo {
+    font-weight: bold;
+}
+
+.testemunha-divisor{
+    width: 17vw;
+}
+
+#testemunha-graduação .testemunha-titulo , #testemunha-posgraduação1 .testemunha-titulo , #testemunha-posgraduação2 .testemunha-titulo{
+    font-weight: bold;
+    color: #2B3C5A;
+}
+
+.testenhuma-imagem{
+    width: 100%;
+}
+
+.star {
+    font-size: 2rem;
+    color: #063553;
+    border: none;
+}
