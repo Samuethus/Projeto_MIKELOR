@@ -19,7 +19,7 @@
 
 /* FORMATAÇÃO DA PÁGINA -------------------------------------------*/ 
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-family: 'Afacad',sans-serif; 
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -141,6 +141,8 @@ ul .certificado-titulo {
 
 .certificado-divisor{
     width: 17vw;
+    margin-top: 18px;
+    margin-bottom: 15px;
 }
 
 #certificado-graduação .certificado-titulo , #certificado-posgraduação1 .certificado-titulo , #certificado-posgraduação2 .certificado-titulo{
@@ -149,7 +151,7 @@ ul .certificado-titulo {
 }
 
 #historia-container {
-    border: 2px solid black;
+    border: none;
 }
 
 #historia-container{
@@ -254,4 +256,64 @@ ul .testemunha-titulo {
     font-size: 2rem;
     color: #063553;
     border: none;
+    background: none;
+}
+
+#projeto-container{
+    background: linear-gradient(0deg, rgba(43,60,90,0.7) ,  rgba(43,60,90,0.7) ) , url(https://solarviews.com/raw/earth/earthlights.jpg) no-repeat; 
+    /*https://wallpaper.dog/large/20534439.jpg*/
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 25vh;
+    border: 5px solid #A7804B;
+    text-align: center;
+    color: #eee;
+}
+
+.projeto-imagem{
+    width: 20%;
+    border: none;
+}
+
+#projeto-container .projeto-apresentação-titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border: none;
+}
+
+#projeto-container .projeto-apresentação-comentario{
+    font-size: 1.1rem;
+    border: none;
+    width: 70vw ;
+    margin-left: 15vw;
+    margin-top: 20px;
+}
+
+#projeto-number{
+    background: #A7804B;
+    width: 100%;
+    height: 12vh;
+}
+
+#number-container{
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#number-graduação{
+    border: none;   
+    width: 10vw;
+    margin: auto;
+}
+
+.number-numero{
+    font-weight: bold;
+    font-size: 3rem;
 }
