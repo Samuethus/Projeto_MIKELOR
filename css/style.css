@@ -317,3 +317,11 @@ ul .testemunha-titulo {
     font-weight: bold;
     font-size: 3rem;
 }
+
+#mapa-container{
+    border: none;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+

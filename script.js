@@ -1,5 +1,5 @@
 let valueDisplay = document.querySelectorAll(".number-numero");
-let interval = 2000 ;
+let interval = 6000 ;
 
 valueDisplay.forEach((valueDisplay) => {
     let startValue = 0;
@@ -14,4 +14,12 @@ valueDisplay.forEach((valueDisplay) => {
         }
     },duration);
 });    
+
+window.revelar = ScrollReveal({reset:true}) ;
+
+revelar.reveal ('#number-container' , {
     
+    duration: 1000,
+    delay: 500,
+
+}); 
