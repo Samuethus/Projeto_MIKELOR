@@ -18,7 +18,7 @@ valueDisplay.forEach((valueDisplay) => {
 window.revelar = ScrollReveal({reset:true}) ;
 
 revelar.reveal ('#number-container' , {
-    
+
     duration: 1000,
     delay: 500,
 

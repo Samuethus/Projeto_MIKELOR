@@ -321,7 +321,74 @@ ul .testemunha-titulo {
 #mapa-container{
     border: none;
     text-align: center;
-    width: 100%;
+    width: 99.5%;
     margin: auto;
 }
+
+#formulario{
+    background: white;
+    width: 100%;
+    height: 80vh;
+}
+
+#formulario-container{
+    border-top: 10px solid  #A7804B;
+}
+
+#formulario-titulo{
+    border: none;
+    width: 30vw;
+    margin: 20px 100px;
+    margin-top: 30vh;
+    text-align: justify;
+    justify-content: center;
+    justify-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    border-left: 4px solid #A7804B;
+    color: #063553; 
+}
+
+#formulario-comentario{
+    border: none;
+    width: 30vw;
+    margin:20px 100px;
+    text-align: justify;
+    justify-content: center;
+    justify-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #063553; 
+}
+
+#formulario-opção{
+    border: none;
+    width: 30vw;
+    margin: 20px 100px;
+    text-align: justify;
+    justify-content: center;
+    justify-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #063553;
+}
+
+#formulario-imput{
+    border: none;
+    width: 40vw;
+    height: 60vh;
+    margin: -50vh 50vw;
+    border: 2px solid black;
+    font-size: 3rem;
+    font-weight: bold;
+    border-left: 4px solid #A7804B;
+    color: #063553; 
+    background: linear-gradient(0deg, rgba(43,60,90,0.7) ,  rgba(43,60,90,0.7) ) , url(https://solarviews.com/raw/earth/earthlights.jpg) no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
 
