@@ -378,21 +378,37 @@ ul .testemunha-titulo {
     width: 40vw;
     height: 60vh;
     margin: -50vh 50vw;
-
     border-left: 4px solid #A7804B;
     color: #063553; 
     background: linear-gradient(0deg, rgba(43,60,90,0.7) ,  rgba(43,60,90,0.7) ) , url(https://solarviews.com/raw/earth/earthlights.jpg) no-repeat; 
     background-position: center;
     background-size: cover;
-
 }
 
-
-.formulario-input-nome , .formulario-input-email , .formulario-input-mensagem {
+.formulario-input-nome , .formulario-input-email , .formulario-input-mensagem , .formulario-input-enviar {
     color: white;
-    padding: 4.5vh;
+    padding: 3.1vh 4.5vh;
     font-size: 1rem;
     font-weight: lighter;
     border: 2px solid black;
-    line-height: 5vh;
+    line-height: 3vh;
 }
+
+.input {
+    font-size: 1rem;
+    width: 34.5vw;
+    height: 5vh;
+}
+
+.formulario-input-mensagem .input{
+    height: 10vh;
+}
+
+.formulario-input-enviar .input{
+    height: 4vh;
+    border-radius: 5px;
+    background:  #A7804B;
+    color: white;
+    font-weight: bold;
+}
+

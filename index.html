@@ -150,20 +150,30 @@
             </div>
 
             <div id="formulario-input">
-                <ul class="formulario-input-nome">
-                    <li class="input"><a href=""></a>Nome</li>
-                    <li><input class="" type="text" name="input-nome" ></li>
-                </ul>
-                
-                <ul class="formulario-input-email">
-                    <li class="input"><a href=""></a>E-mail</li>
-                    <li><input class="input" type="text" name="input-email" ></li>
-                </ul>
 
-                <ul class="formulario-input-mensagem">
-                    <li class="input"><a href=""></a>Mensagem</li>
-                    <li><input class="input" type="text" name="input-mensagem" ></li>
-                </ul>
+                <form action="fomulario.php" method="post" autocomplete="on">
+
+                    <ul class="formulario-input-nome">
+                        <li class=""><a href=""></a>Nome</li>
+                        <li><input class="input" type="text" name="input-nome" ></li>
+                    </ul>
+                    
+                    <ul class="formulario-input-email">
+                        <li class=""><a href=""></a>E-mail</li>
+                        <li><input class="input" type="text" name="input-email" ></li>
+                    </ul>
+
+                    <ul class="formulario-input-mensagem">
+                        <li class=""><a href=""></a>Mensagem</li>
+                        <li><input class="input" type="text" name="input-mensagem" ></li>
+                    </ul>
+                    
+                    <ul class="formulario-input-enviar">
+                        <li><input class="input" type="submit" value="Entrar" onclick="logar(); return false"></li>
+                    </ul>
+
+
+                </form>
 
             </div>  
    
