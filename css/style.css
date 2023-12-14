@@ -321,7 +321,7 @@ ul .testemunha-titulo {
 #mapa-container{
     border: none;
     text-align: center;
-    width: 99.5%;
+    width: 100%;
     margin: auto;
 }
 
@@ -373,14 +373,12 @@ ul .testemunha-titulo {
     color: #063553;
 }
 
-#formulario-imput{
+#formulario-input{
     border: none;
     width: 40vw;
     height: 60vh;
     margin: -50vh 50vw;
-    border: 2px solid black;
-    font-size: 3rem;
-    font-weight: bold;
+
     border-left: 4px solid #A7804B;
     color: #063553; 
     background: linear-gradient(0deg, rgba(43,60,90,0.7) ,  rgba(43,60,90,0.7) ) , url(https://solarviews.com/raw/earth/earthlights.jpg) no-repeat; 
@@ -390,5 +388,11 @@ ul .testemunha-titulo {
 }
 
 
-
-
+.formulario-input-nome , .formulario-input-email , .formulario-input-mensagem {
+    color: white;
+    padding: 4.5vh;
+    font-size: 1rem;
+    font-weight: lighter;
+    border: 2px solid black;
+    line-height: 5vh;
+}
