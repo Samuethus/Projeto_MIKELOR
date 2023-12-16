@@ -390,7 +390,6 @@ ul .testemunha-titulo {
     padding: 3.1vh 4.5vh;
     font-size: 1rem;
     font-weight: lighter;
-    border: 2px solid black;
     line-height: 3vh;
 }
 
@@ -410,5 +409,24 @@ ul .testemunha-titulo {
     background:  #A7804B;
     color: white;
     font-weight: bold;
+}
+
+#rodape-container{
+    background: linear-gradient(0deg, rgba(43,60,90,0.7) ,  rgba(43,60,90,0.7) ) , url(https://solarviews.com/raw/earth/earthlights.jpg) no-repeat; 
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:5vh;
+    border: none;
+
+}
+
+.rodape-apresentação-titulo{
+    position: relative;
+    width: 40vw;
+    top:30%;
+    left: 45%;
+    color: white;
+    font-size: 0.8rem;
 }
 
