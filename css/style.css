@@ -373,6 +373,10 @@ ul .testemunha-titulo {
     color: #063553; 
 }
 
+.formulario-titulo-fale{
+    margin-left: 1vw;
+}
+
 #formulario-comentario{
     border: none;
     width: 30vw;
