@@ -109,6 +109,17 @@ ul, .btn {
     align-items: center;
 }
 
+#area-whatsapp{
+    margin: -20vh 92vw;
+    width: 5vw;
+}
+
+.area-whatsapp-imagem{
+    border-radius: 50%;
+    width: 4vw;
+    position: fixed;
+}
+
 #certificado-container{
     border: none;
     display: flex;

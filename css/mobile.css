@@ -1,5 +1,9 @@
 
-@media  screen and (max-width: 900px){
+
+
+
+
+@media screen and (max-width: 900px){
 
 .area-predio-imagem{
     display: none;
@@ -12,7 +16,6 @@
 .area-imagem{
     margin: 0px 19vw;
     width: 60%;
- 
 }
 
 #area-apresentação{
@@ -20,7 +23,15 @@
     width: 80vw;
     height: 59.5vh;
     margin: 0px 10vw;
+}
 
+#area-whatsapp{
+    margin: -8vh 85vw;
+    width: 5vw;
+}
+
+.area-whatsapp-imagem{
+    width: 10vw;
 }
 
 #certificado-container{
@@ -43,7 +54,6 @@
     font-size: 1.5rem;
     font-weight: bold;
     padding-bottom: 20px;
-
 }
 
 .certificado-italic{
@@ -123,3 +133,11 @@
 }
 
 }
+
+
+
+
+
+
+
+
