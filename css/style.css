@@ -167,6 +167,7 @@ ul .certificado-titulo {
 }
 
 .historia-imagem{
+    margin-top: 15px;
     width: 20%;
     border: none;
 }
@@ -176,6 +177,7 @@ ul .certificado-titulo {
     font-weight: bold;
     padding-bottom: 20px;
     border: none;
+    margin-top: 15px;
 }
 
 #historia-container .historia-apresentação-comentario{
@@ -184,6 +186,7 @@ ul .certificado-titulo {
     width: 70vw ;
     margin-left: 15vw;
     margin-top: 20px;
+    text-align: justify;
 }
 
 #historia-container .historia-apresentação-opnião{
@@ -194,6 +197,7 @@ ul .certificado-titulo {
     width: 70vw ;
     margin-left: 15vw;
     margin-top: 10px;
+    text-align: justify;
 }
 
 .certificado-pessoa{
@@ -212,9 +216,10 @@ ul .certificado-titulo {
     position: relative;
 }
 
-#testemunha-graduação , #testemunha-posgraduação1 , #testemunha-posgraduação2{
+#testemunha-graduação{
     border: 2px solid #A7804B;
     width: 20vw;
+    height: 58vh;
     box-shadow: 0px 3px 20px #2b3c5a2d;
     padding: 15px; 
     margin: auto;
@@ -281,6 +286,7 @@ ul .testemunha-titulo {
     font-weight: bold;
     padding-bottom: 20px;
     border: none;
+    margin-top: 10px;
 }
 
 #projeto-container .projeto-apresentação-comentario{
@@ -289,6 +295,13 @@ ul .testemunha-titulo {
     width: 70vw ;
     margin-left: 15vw;
     margin-top: 20px;
+    text-align: justify;
+}
+
+.projeto-divisor{
+    width: 17vw;
+    margin-top: 18px;
+    margin-bottom: 15px;
 }
 
 #projeto-number{
