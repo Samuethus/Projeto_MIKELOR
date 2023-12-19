@@ -1,9 +1,160 @@
 
+@media screen and (min-width: 360px){
+
+
+    .area-predio-imagem{
+        display: none;
+    }
+    
+    #area-logo{
+        padding: 0px 0px;
+    }
+    
+    .area-imagem{
+        margin: 0px 19vw;
+        width: 60%;
+    }
+    
+    #area-apresentação{
+        border: none;
+        width: 80vw;
+        height: 59.5vh;
+        margin: 0px 10vw;
+    }
+
+    #area-apresentação ul{
+        margin-top: 7vh;
+
+    }
+    
+    #area-whatsapp{
+        margin: -10vh 85vw;
+        width: 5vw;
+    }
+    
+    .area-whatsapp-imagem{
+        width: 10vw;
+    }
+    
+    #certificado-container{
+        display: grid;
+        padding: 10vh 5vh;
+    }
+    
+    #certificado-graduação , #certificado-posgraduação1 , #certificado-posgraduação2{
+        width: 80vw;
+        margin-top: 1vh;
+    }
+    
+    .certificado-divisor{
+        width: 60vw;
+        margin-top: 18px;
+        margin-bottom: 15px;
+    }
+    
+    #historia-container .historia-apresentação-titulo{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+
+    #historia-container .historia-apresentação-comentario{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    
+    .certificado-italic{
+        display: none;
+    }
+    
+    .certificado-pessoa{
+        width: 25vw;
+        margin: -15px -5px;
+    }
+    
+    #testemunha-container{
+        border: none;
+        display: grid;
+        justify-content: space-between;
+        text-align: center;
+        padding: 10vh 5vh;
+        position: relative;
+    }
+    
+    #testemunha-graduação{
+        height: 61vh;
+        width: 80vw;
+        box-shadow: 0px 3px 20px #2b3c5a2d;
+        padding: 15px; 
+        margin: 5px 0px;
+    }
+    
+    #testemunha-container i{
+        top: -25vh;
+    }
+    
+    #projeto-container .projeto-apresentação-comentario{
+        font-size: 0.75rem;
+        width: 80vw ;
+        margin-left: 10vw;
+        margin-top: -5px;
+    }
+    
+    .projeto-divisor{
+        width: 80vw ;
+        margin-top: -10px;
+    }
+    
+    #formulario-titulo{
+        width: 80vw;
+        margin: 0px 10vw;
+        margin-top: 3vh;
+        font-size: 1.5rem;
+    }
+    
+    #formulario-comentario{
+        display: none;
+    }
+    
+    #formulario-opção{
+        width: 80vw;
+        margin: 0px 10vw;
+        margin-top: 2vh;
+        font-size: 0.9rem;
+    }
+    
+    #formulario-input{
+        width: 80vw;
+        height: 60vh;
+        margin: 0px 10vw;
+        margin-top: 2vh;
+    }
+    
+    .input {
+        width: 60vw;
+    }
+    
+    .rodape-apresentação-titulo{
+        width: 60vw;
+        left: 23%;
+    }
+
+
+}
 
 
 
 
-@media screen and (max-width: 900px){
+
+
+/*---------------------------------------------------------------------------*/
+
+
+
+
+
+
+@media screen and (min-width: 430px){
 
 .area-predio-imagem{
     display: none;
@@ -56,6 +207,11 @@
     padding-bottom: 20px;
 }
 
+#historia-container .historia-apresentação-comentario{
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
 .certificado-italic{
     display: none;
 }
@@ -74,12 +230,12 @@
     position: relative;
 }
 
-#testemunha-graduação , #testemunha-posgraduação1 , #testemunha-posgraduação2{
-    height: 55vh;
+#testemunha-graduação{
+    height: 56vh;
     width: 80vw;
     box-shadow: 0px 3px 20px #2b3c5a2d;
     padding: 15px; 
-    margin: auto;
+    margin: 5px 0px;
 }
 
 #testemunha-container i{
