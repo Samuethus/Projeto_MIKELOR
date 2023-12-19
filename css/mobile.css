@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 360px){
+@media screen and (max-width: 420px){
 
 
     .area-predio-imagem{
@@ -154,7 +154,7 @@
 
 
 
-@media screen and (min-width: 430px){
+@media screen and (max-width: 900px){
 
 .area-predio-imagem{
     display: none;
