@@ -107,43 +107,19 @@
 }
 
 #formulario-input{
-    border: none;
     width: 80vw;
     height: 60vh;
     margin: 0px 10vw;
     margin-top: 2vh;
-    border-left: 4px solid #A7804B;
-    color: #063553; 
-    background: linear-gradient(0deg, rgba(43,60,90,0.7) ,  rgba(43,60,90,0.7) ) , url(https://solarviews.com/raw/earth/earthlights.jpg) no-repeat; 
-    background-position: center;
-    background-size: cover;
 }
 
 .input {
     width: 60vw;
 }
 
-
-#rodape-container{
-    background: linear-gradient(0deg, rgba(43,60,90,0.7) ,  rgba(43,60,90,0.7) ) , url(https://solarviews.com/raw/earth/earthlights.jpg) no-repeat; 
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height:5vh;
-    border: none;
-}
-
 .rodape-apresentação-titulo{
     width: 60vw;
     left: 23%;
 }
-
-
-
-
-
-
-
-
 
 }
